@@ -54,8 +54,9 @@ npm install
 
 once that has been done, run
 
-```
 npm run dev
+
+```
 
 
 ## Deployment
