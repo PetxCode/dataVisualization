@@ -48,6 +48,14 @@ export const PopulationDataChart = () => {
           <CardHeader>
             <CardTitle>Nigeria Population Growth Insight</CardTitle>
             <CardDescription>Recording from 1950 - 2100</CardDescription>
+            <a
+              href="https://www.macrotrends.net/global-metrics/countries/nga/nigeria/population"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="italic text-blue-500"
+            >
+              Data Source
+            </a>
           </CardHeader>
           <CardContent>
             <ChartContainer config={chartConfig}>

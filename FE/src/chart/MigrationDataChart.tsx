@@ -50,6 +50,14 @@ export const MigrationDataChart = () => {
             <CardDescription>
               Migration and Population Growth data
             </CardDescription>
+            <a
+              href="https://www.macrotrends.net/global-metrics/countries/nga/nigeria/immigration-statistics"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="italic text-blue-500"
+            >
+              Data Source
+            </a>
           </CardHeader>
           <CardContent>
             <ChartContainer config={chartConfig}>

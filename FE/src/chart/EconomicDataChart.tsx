@@ -58,7 +58,14 @@ export const EconomicDataChart = () => {
               Graph
             </CardTitle>
             <CardDescription>1960 - 2023</CardDescription>
-
+            <a
+              href="https://www.macrotrends.net/global-metrics/countries/nga/nigeria/gdp-gross-domestic-product"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="italic text-blue-500"
+            >
+              Data Source
+            </a>
             <div className="flex flex-wrap gap-1 lg:gap-3 ">
               <Button
                 variant="outline"
