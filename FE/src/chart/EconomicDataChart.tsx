@@ -59,10 +59,10 @@ export const EconomicDataChart = () => {
             </CardTitle>
             <CardDescription>1960 - 2023</CardDescription>
 
-            <div className="flex gap-3">
+            <div className="flex flex-wrap gap-1 lg:gap-3 ">
               <Button
                 variant="outline"
-                className={`mt-3 font-medium transition-all duration-300 cursor-pointer ${
+                className={`mt-1 lg:mt-3 font-medium transition-all duration-300 cursor-pointer ${
                   chart === "GDP" && "text-white bg-[#E76E50]"
                 }`}
                 onClick={() => setChart("GDP")}
@@ -71,7 +71,7 @@ export const EconomicDataChart = () => {
               </Button>
               <Button
                 variant="outline"
-                className={`mt-3 font-medium transition-all duration-300 cursor-pointer ${
+                className={`mt-1 lg:mt-3 font-medium transition-all duration-300 cursor-pointer ${
                   chart === "CapitaGrowth" && "text-white bg-[#2A9D90]"
                 }`}
                 onClick={() => setChart("CapitaGrowth")}
@@ -80,7 +80,7 @@ export const EconomicDataChart = () => {
               </Button>
               <Button
                 variant="outline"
-                className={`mt-3 font-medium transition-all duration-300 cursor-pointer ${
+                className={`mt-1 lg:mt-3font-medium transition-all duration-300 cursor-pointer ${
                   chart === "annualGrowth" && "text-white bg-blue-950"
                 }`}
                 onClick={() => setChart("annualGrowth")}
