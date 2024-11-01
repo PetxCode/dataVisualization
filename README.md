@@ -56,9 +56,6 @@ once that has been done, run
 
 npm run dev
 
-```
-
-
 ## Deployment
 
 The FrondEnd of this project is deployed on Netlify infrastructure
@@ -95,6 +92,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - Vite
 - Tailwindcss
 - Framer-Motion
+
+```
 
 ```
 
