@@ -3,9 +3,15 @@
 @tailwind utilities;
 
 :root {
-  font-family: Poppins, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Dinot, Poppins, Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
   line-height: 1.5;
   font-weight: 300;
+}
+
+@font-face {
+  font-family: "Dinot";
+  src: url("./assets/font/dinot.ttf");
 }
 
 @layer base {

@@ -5,7 +5,7 @@ function MainScreen() {
         <div className="relative z-10 max-w-screen-xl mx-auto px-4 py-28 md:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-[40px] md:text-[50px] lg:text-[80px]  text-neutral-950 font-extrabold mx-auto leading-[1] mb-2">
-              Data2Bots Visualizationk
+              Data2Bots Visualization
             </h2>
             <p className=" text-[15px] md:text-[20px] leading-5 max-w-2xl mb-1 mx-auto text-neutral-900 ">
               Data Speaks Volumn, understand what's hidden behind Nigeria's.

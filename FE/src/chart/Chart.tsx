@@ -1,15 +1,12 @@
 import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
-import { FC, useState } from "react";
+import { FC } from "react";
 
 import { Bar } from "react-chartjs-2";
 
 Chart.register(CategoryScale);
 
 export default function ChartApp() {
-  const [chartData, setChartData] = useState({
-    // ...chart data
-  });
   const dataMain = {
     labels: ["Red", "Orange", "Blue"],
 

@@ -58,7 +58,7 @@ npm run dev
 
 ## Deployment
 
-The FrondEnd of this project is deployed on Netlify infrastructure
+The FrondEnd of this project is deployed on Vercel infrastructure
 The BackEnd of this project is deployed on Render infrastructure
 The Database of this project is deployed on MongoDB Alart infrastructure
 
@@ -95,6 +95,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - Axios
 - ShadCN
 - Recharts
+- Vercel
 - Vite
 - Tailwindcss
 - Framer-Motion

@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const mainURL: string = "http://localhost:6677";
+// const mainURL: string = "http://localhost:6677";
+const mainURL: string = "https://visualbe.onrender.com";
 
 export const getPopulation = async () => {
   try {

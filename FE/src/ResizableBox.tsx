@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { ResizableBox as ReactResizableBox } from "react-resizable";
 
 import "react-resizable/css/styles.css";

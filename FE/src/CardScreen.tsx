@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const projects = [
   {
     id: "02",
-    img: "https://images.unsplash.com/photo-1709884735626-63e92727d8b6?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://www.investopedia.com/thmb/6u2yzmYQTurQSbbt0OEDUziPLEE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/thinkstockphotos120961426-5bfc2b5ac9e77c005876fd39.jpg",
     title: "Economic Information",
     des: "How do you think the country's growth rate has been... Let's dive in?",
     url: "/economic",
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     id: "04",
-    img: "https://images.unsplash.com/photo-1613919517761-0d9e719d3244?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxpaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToZ9d8TAwQCE4kwaCEbMTgSRGGPUofISxB1g&s",
     title: "Migration Data",
     des: "This gives revelational insight into the country's migration ",
     url: "/migrant",
@@ -48,7 +48,14 @@ export default function CardScreen() {
               />
             </motion.div>
 
+            <div className="absolute top-0 left-0 w-full bg-gradient-to-b from-black to-transparent p-6 opacity-100 group-hover:opacity-0 transition-opacity duration-500 ease-in-out">
+              <h3 className="text-xl font-semibold text-white">
+                View Economic Chart
+              </h3>
+            </div>
+
             {/* Project Info Overlay */}
+
             <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black to-transparent p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
               <h3 className="text-xl font-bold text-white">
                 {projects[0].title}
@@ -79,6 +86,12 @@ export default function CardScreen() {
                 className="h-full w-full object-cover transition-transform duration-500 ease-in-out rounded-xl"
               />
             </motion.div>
+
+            <div className="absolute top-0 left-0 w-full bg-gradient-to-b from-black  to-transparent p-6 opacity-100 group-hover:opacity-0 transition-opacity duration-500 ease-in-out">
+              <h3 className="text-xl font-semibold text-white">
+                View Migration Chart
+              </h3>
+            </div>
 
             {/* Project Info Overlay */}
             <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black to-transparent p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
@@ -113,6 +126,12 @@ export default function CardScreen() {
                 className="h-full w-full object-cover transition-transform duration-500 ease-in-out rounded-xl"
               />
             </motion.div>
+
+            <div className="absolute top-0 left-0 w-full bg-gradient-to-b from-black  to-transparent p-6 opacity-100 group-hover:opacity-0 transition-opacity duration-500 ease-in-out">
+              <h3 className="text-xl font-semibold text-white">
+                View Population Chart
+              </h3>
+            </div>
 
             {/* Project Info Overlay */}
             <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black to-transparent p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
