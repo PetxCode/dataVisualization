@@ -36,22 +36,18 @@ npm install
 
 repeat this for the FrontEnd as well
 
+```
 cd /..
-
 ```
 
 ```
-
 cd /FE
-
 ```
 
 after that run
 
 ```
-
 npm install
-
 ```
 
 ## Running the project
@@ -59,10 +55,8 @@ npm install
 once that has been done, run
 
 ```
-
 npm run dev
 
-```
 
 ## Deployment
 
@@ -100,4 +94,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - Vite
 - Tailwindcss
 - Framer-Motion
+
+```
+
+```
+
 ```
