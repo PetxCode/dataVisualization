@@ -64,9 +64,9 @@ The Database of this project is deployed on MongoDB Alart infrastructure
 
 ## WATCH VIDEO DEMO
 
-<!-- https://youtu.be/Afcxpl0U0Qc -->
+<!-- https://youtu.be/Zu5aicg5BCM -->
 
-[![Data2Bots ChatBot Demo ](https://img.youtube.com/vi/Afcxpl0U0Qc/0.jpg)](https://www.youtube.com/watch?v=Afcxpl0U0Qc)
+[![Data2Bots Data Visualization ](https://img.youtube.com/vi/Afcxpl0U0Qc/0.jpg)](https://www.youtube.com/watch?v=Zu5aicg5BCM)
 
 ## Built With
 
