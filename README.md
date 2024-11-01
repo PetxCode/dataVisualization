@@ -89,14 +89,12 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [macrotrends](https://www.macrotrends.net/)
 - CodeLab
 - React
+- NodeJS
+- MongoDB
+- SWR
+- Axios
+- ShadCN
+- Recharts
 - Vite
 - Tailwindcss
 - Framer-Motion
-
-```
-
-```
-
-```
-
-```
